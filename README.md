@@ -1,0 +1,2 @@
+# APIloadtestPy
+##Important Details## The number of lines in the text file is number of times the api will be called per thread so the load test is Number of tests is number of lines in json times the number of max workers/threads created so for example there are 50 lines and max workers is set to 100 then each worker will send 50 requests and there will be 100 workers so 100*50=5000 is the number of requests the system will recieve so beaware the load it might take on your destination system
